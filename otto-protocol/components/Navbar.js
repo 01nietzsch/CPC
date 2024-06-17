@@ -11,7 +11,7 @@ export default function Navbar() {
   }
 
   function appRedirect() {
-    window.location.href = "/assets/video/IMG_0179.mp4";
+    window.location.href = "/assets/imgs/fullyworking.mp4";
   }
 
   return (
