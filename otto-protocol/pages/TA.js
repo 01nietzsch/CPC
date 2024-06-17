@@ -1,20 +1,9 @@
-import LightNode from "../components/LightNode";
-import MusicPlayer from "../components/MusicPlayer";
 import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <>
-      {/* MusicPlayer component */}
-      <MusicPlayer />
-
-      {/* Main section */}
       <section className="w-full text-white">
-        {/* LightNode components positioned at top-left and bottom-right */}
-        <LightNode position="top-left" />
-        <LightNode position="bottom-right" />
-
-        {/* Container for the main content */}
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0 }}
@@ -22,25 +11,21 @@ export default function Home() {
             exit={{ opacity: 0 }}
             className="vertical-center"
           >
-            {/* Title */}
             <h1 className="mt-8 sm:mt-16 mb-6 text-4xl sm:text-6xl text-center font-extrabold text-white">
               Terms & Agreements
             </h1>
-            {/* Content area */}
-            <div className="w-full align-middle justify-center z-0 relative mr-96  sm:mx-6">
-              {/* Section 1 */}
+            <div className="w-full align-middle justify-center z-0 relative mr-96 sm:mx-6">
               <h2 className="text-2xl sm:text-3xl font-bold leading-tight text-white mt-12">
                 1. Terms of Service
               </h2>
               <p className="text-base sm:text-lg text-white mt-2 sm:mx-12">
                 a. Introduction
               </p>
-              <p className="text-base sm:text-lg text-white  sm:mx-12">
+              <p className="text-base sm:text-lg text-white sm:mx-12">
                 i. Welcome to our website. By using our site, you agree to these
                 terms and conditions of use. If you do not agree with these
                 terms and conditions, please do not use our site.
               </p>
-              {/* Section 2 */}
               <h2 className="text-2xl sm:text-3xl font-bold leading-tight text-white mt-12">
                 2. Use of the Site
               </h2>
@@ -54,7 +39,7 @@ export default function Home() {
               <p className="text-base sm:text-lg text-white sm:mx-12">
                 i. Intellectual Property
               </p>
-              <p className="text-base sm:text-lg text-white  sm:mx-12">
+              <p className="text-base sm:text-lg text-white sm:mx-12">
                 All content on the site, including text, images, videos,
                 graphics, logos, trademarks, trade names, and other materials,
                 is the property of our company or our content providers and is
@@ -63,7 +48,6 @@ export default function Home() {
                 from, sell, or exploit any content on the site without our prior
                 written permission.
               </p>
-              {/* Section 3 */}
               <h2 className="text-2xl sm:text-3xl font-bold leading-tight text-white mt-12">
                 3. Disclaimer of Warranties
               </h2>
