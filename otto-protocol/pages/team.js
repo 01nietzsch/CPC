@@ -16,7 +16,7 @@ export default function Team() {
         <Profile name="Dai" description="Laser Cutting Engineer" img="Dai" />
         <Profile name="Adrian" description="Chief of Production" img="Adrian" />
         <Profile name="Alex" description="Chief Engineer" img="Alex" />
-        <Profile name="Cat" description="Chief of automation" img="cat" />
+        <Profile name="Cat" description="Chief of automation" img="Cat" />
         <Profile name="Caith" description="Sustainabiliy Officer" img="Caith" />
         <Profile
           name="Xiubyn"
