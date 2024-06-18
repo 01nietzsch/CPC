@@ -7,37 +7,31 @@ function Firstsection() {
   };
 
   return (
-    <section className="w-full text-white full-heigh" id="top">
-      <div className="alignContainer">
+    <section className="w-full text-white h-screen" id="top">
+      <div className="container mx-auto px-4 h-full flex flex-col justify-center items-center">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="vertical-center"
+          className="text-center"
         >
-          <div className="relative z-0 justify-center w-full text-center align-middle">
-            <h1 className="text-5xl leading-normal text-center bold sm:text-6xl">
+          <div className="relative z-0 w-full">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl leading-normal font-bold">
               Enter the quest of
               <br />
               <span>Hardenability</span>
             </h1>
-            <p className="my-10 text-lg">
+            <p className="my-6 text-base sm:text-lg md:text-xl">
               Chilli Powder Corp is the future of hardness testing
             </p>
-            {/* <button
-              onClick={appRedirect}
-              className="inline-flex content-center justify-center w-auto py-3 mr-4 text-white align-middle rounded-full px-7 bg-primary-gradient"
-            >
-              Launch App
-            </button> */}
             <button
               onClick={docsRedirect}
-              className="inline-flex justify-center align-middle content-center px-7 w-auto bg-white border-2 ml-4 border-solid border-[#ffffff] rounded-full py-3 text-black "
+              className="inline-flex items-center justify-center w-auto py-3 px-7 bg-white border-2 border-white rounded-full text-black hover:bg-gray-200 transition duration-300"
             >
               Documentation
             </button>
           </div>
-          <div className="flex justify-center w-full pb-6 text-center mt-28">
+          <div className="flex justify-center w-full mt-20">
             <div
               className="cursor-pointer"
               onClick={() => {
